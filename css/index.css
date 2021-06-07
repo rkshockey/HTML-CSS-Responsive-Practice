@@ -84,3 +84,61 @@ h2 {
 h3 {
     font-size: 2.5rem;
 }
+button {
+    background: #266035;
+    padding: 3% 4%;
+    font-size: 1.8rem;
+    color: #FBFFFB
+}
+
+/*Header styles*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.8);
+}
+.logo {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    width: 70%
+}
+.links {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*top styles*/
+#top{
+    height: 90vh;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#top button {
+    background: #FBFFFB;
+    border: 2px solid #266035;
+    color: #266035;
+    margin-top: 5%;
+    transition: 2s;
+}
+
+#top button:hover {
+    background: #266035;
+    color: #FBFFFB;
+}
