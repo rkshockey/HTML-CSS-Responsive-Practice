@@ -69,7 +69,8 @@ a {
 
 h1, h2, h3 {
     font-family: 'Oxygen', sans-serif;
-    color: #266035
+    color: #266035;
+    text-align: center;
 }
 
 h1 {
@@ -89,6 +90,9 @@ button {
     padding: 3% 4%;
     font-size: 1.8rem;
     color: #FBFFFB
+}
+section {
+    padding: 4% 0;
 }
 
 /*Header styles*/
@@ -141,4 +145,21 @@ nav {
 #top button:hover {
     background: #266035;
     color: #FBFFFB;
+}
+
+/*About styling*/
+#about {
+    height: 80vh;
+    background-image: url(../images/about-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#about .txt {
+    width: 25%;
+    margin-right: 10%;
 }
